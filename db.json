@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "created_at": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "name": "harsha",
+      "email": "harsha@gmail.com",
+      "password": "ha123",
+      "created_at": "2026-04-13T12:48:06.914Z",
+      "id": "MA-M6l8U7wE"
+    },
+    {
+      "name": "Harshavardhan Govindu",
+      "email": "g2@gmail.com",
+      "password": "g2123",
+      "created_at": "2026-04-14T08:00:49.286Z",
+      "id": "VH3DNVJUBlY"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "name": "TaskFlow App",
+      "description": "A comprehensive task management application",
+      "owner_id": "user-1",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "project-2",
+      "name": "Mobile App",
+      "description": "Cross-platform mobile application",
+      "owner_id": "user-1",
+      "created_at": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "project-3",
+      "name": "Website Redesign",
+      "description": "Complete website overhaul and redesign",
+      "owner_id": "user-2",
+      "created_at": "2024-01-04T00:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Set up project structure",
+      "description": "Initialize the project with proper folder structure and dependencies",
+      "status": "todo",
+      "priority": "high",
+      "project_id": "project-1",
+      "assignee_id": "user-1",
+      "due_date": "2024-01-15T00:00:00.000Z",
+      "created_at": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Implement authentication",
+      "description": "Add user registration and login functionality",
+      "status": "in_progress",
+      "priority": "high",
+      "project_id": "project-1",
+      "assignee_id": "user-1",
+      "due_date": "2024-01-20T00:00:00.000Z",
+      "created_at": "2024-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "task-3",
+      "title": "Create project dashboard",
+      "description": "Build the main dashboard showing all user projects",
+      "status": "in_progress",
+      "priority": "medium",
+      "project_id": "project-1",
+      "assignee_id": "user-1",
+      "due_date": "2024-01-25T00:00:00.000Z",
+      "created_at": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "task-4",
+      "title": "Design mobile UI",
+      "description": "Create wireframes and mockups for mobile application",
+      "status": "todo",
+      "priority": "medium",
+      "project_id": "project-2",
+      "assignee_id": "user-2",
+      "due_date": "2024-02-01T00:00:00.000Z",
+      "created_at": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "task-5",
+      "title": "Update homepage design",
+      "description": "Redesign the homepage with modern UI components",
+      "status": "in_progress",
+      "priority": "high",
+      "project_id": "project-3",
+      "assignee_id": "user-2",
+      "due_date": "2024-01-30T00:00:00.000Z",
+      "created_at": "2024-01-04T00:00:00.000Z"
+    }
+  ]
+}
