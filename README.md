@@ -82,7 +82,7 @@ npm run json-server
 npm run dev
 ```
 
-Opens at [http://localhost:3001](http://localhost:3001) (Next.js) and [http://localhost:3002](http://localhost:3002) (JSON Server API)
+Opens at [http://localhost:3000](http://localhost:3000) (Next.js) and [http://localhost:4000](http://localhost:4000) (JSON Server API)
 
 ### Production Build
 
@@ -155,14 +155,6 @@ Uses TailwindCSS utility classes with dark mode via `dark:` prefix.
 ## Environment Variables
 
 ```
-# API Backend URL (defaults to http://localhost:3002 for JSON Server)
-NEXT_PUBLIC_API_URL=http://localhost:3002
+# API Backend URL (defaults to http://localhost:3000 for JSON Server)
+NEXT_PUBLIC_API_URL=http://localhost:3000
 ```
-
-## Contributing
-
-This is an open-source learning project. Issues and PRs welcome!
-
-## License
-
-MIT
